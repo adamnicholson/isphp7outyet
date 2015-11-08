@@ -3,6 +3,7 @@
     <title>Is PHP 7 Out Yet?</title>
 
     <meta name="description" content="PHP 7 release date" />
+    <meta name="author" content="Adam Nicholson <http://adamnicholson.co.uk>">
 
     <style type="text/css">
         html {
