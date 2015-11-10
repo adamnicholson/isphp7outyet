@@ -54,7 +54,7 @@
     <small>
         <h1>When will PHP 7 be released?</h1>
 
-        <h3><a href="http://news.php.net/php.internals/89100">Probably about <?= (new \Carbon\Carbon('2015-11-24'))->diffForHumans(); ?></a></h3>
+        <h3><a href="http://news.php.net/php.internals/89100">Probably about <?= (new \Carbon\Carbon('2015-11-24'))->diffInDays(); ?> days</a></h3>
     </small>
 
 <?php endif; ?>
