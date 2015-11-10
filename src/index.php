@@ -28,6 +28,10 @@
             opacity: 0.4;
             display: block;
         }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
         @media (min-width: 400px) {
             body {
                 padding-top: 200px;
@@ -39,13 +43,23 @@
 
 <h1>Is PHP 7 Out Yet?</h1>
 
-<h2>Nope</h2>
+<?php if ((new \Carbon\Carbon())->gt(new \Carbon\Carbon('2015-11-24'))): ?>
 
-<small>
-    <h1>When will PHP 7 be released?</h1>
+    <h2>Yes!</h2>
 
-    <h3>Probably about <?= (new \Carbon\Carbon('2015-11-15'))->diffForHumans(); ?></h3>
-</small>
+<?php else: ?>
+
+    <h2>Nope</h2>
+
+    <small>
+        <h1>When will PHP 7 be released?</h1>
+
+        <h3><a href="http://news.php.net/php.internals/89100">Probably about <?= (new \Carbon\Carbon('2015-11-24'))->diffForHumans(); ?></a></h3>
+    </small>
+
+<?php endif; ?>
+
+
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
