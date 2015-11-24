@@ -43,9 +43,11 @@
 
 <h1>Is PHP 7 Out Yet?</h1>
 
-<?php if ((new \Carbon\Carbon())->gt(new \Carbon\Carbon('2015-11-24'))): ?>
+<?php if ((new \Carbon\Carbon())->gt(new \Carbon\Carbon('2015-12-03'))): ?>
 
     <h2>Yes!</h2>
+
+    <h3>... probably!</h3>
 
 <?php else: ?>
 
