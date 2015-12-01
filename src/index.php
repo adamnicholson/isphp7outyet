@@ -43,24 +43,11 @@
 
 <h1>Is PHP 7 Out Yet?</h1>
 
-<?php if ((new \Carbon\Carbon())->gt(new \Carbon\Carbon('2015-12-03'))): ?>
+<h2><a href="https://github.com/php/php-src/releases/tag/php-7.0.0">Yes! (ish)</a></h2>
 
-    <h2>Yes!</h2>
-
-    <h3>... probably!</h3>
-
-<?php else: ?>
-
-    <h2>Nope</h2>
-
-    <small>
-        <h1>When will PHP 7 be released?</h1>
-
-        <h3><a href="http://marc.info/?l=php-internals&m=144838316924497&w=2">Probably about <?= (new \Carbon\Carbon('2015-12-03'))->diffInDays(); ?> days</a></h3>
-    </small>
-
-<?php endif; ?>
-
+<small style="padding: 0 40px;">
+<h3>7.0.0 build has been tagged. Expect the official release within the next 48 hours</h3>
+</small>
 
 
 <script>
