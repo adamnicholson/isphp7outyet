@@ -8,7 +8,7 @@
     <style type="text/css">
         html {
             font-family: sans-serif;
-            font-size: 100px;
+            font-size: 120px;
             text-align: center;
             padding-top: 50px;
         }
@@ -29,7 +29,7 @@
             display: block;
         }
         a {
-            color: inherit;
+            color: #8892BF;
             text-decoration: none;
         }
         @media (min-width: 400px) {
@@ -43,11 +43,8 @@
 
 <h1>Is PHP 7 Out Yet?</h1>
 
-<h2><a href="https://github.com/php/php-src/releases/tag/php-7.0.0">Yes! (ish)</a></h2>
+<h2><a href="http://php.net/archive/2015.php#id2015-12-03-1">Yes!</a></h2>
 
-<small style="padding: 0 40px;">
-<h3>7.0.0 build has been tagged. Expect the official release within the next 48 hours</h3>
-</small>
 
 
 <script>
